@@ -1,0 +1,19 @@
+{
+  "metadatos": {
+    "timestamp": 1764435796,
+    "fecha_procesamiento": "29/11/2025 12:03:16",
+    "version_bot": "1.0",
+    "fuente": "Registraduría Nacional de Colombia"
+  },
+  "datos_ciudadano": {
+    "cedula": "1036670248",
+    "nombre": "JUAN CARLOS RODRIGUEZ MARTINEZ",
+    "estado": "VIGENTE",
+    "fecha_expedicion": "08/01/2015",
+    "lugar_expedicion": "BOGOTÁ D.C.",
+    "fecha_consulta": "29/11/2025 12:03:15",
+    "vigente": true,
+    "archivo_pdf": "certificado_1036670248_prueba.pdf",
+    "texto_completo": "Texto completo del PDF de prueba..."
+  }
+}

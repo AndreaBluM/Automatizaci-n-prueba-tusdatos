@@ -1,0 +1,2 @@
+Todos los resultados: ['LARA', 'LARA', 'LANA']
+Resultado final: LARA

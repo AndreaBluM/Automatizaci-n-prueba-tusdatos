@@ -1,0 +1,19 @@
+{
+  "metadatos": {
+    "timestamp": 1732885200,
+    "fecha_procesamiento": "29/11/2025 12:00:00",
+    "version_bot": "1.0",
+    "fuente": "Registraduría Nacional de Colombia"
+  },
+  "datos_ciudadano": {
+    "cedula": "1036670248",
+    "nombre": "JUAN CARLOS RODRIGUEZ MARTINEZ",
+    "estado": "VIGENTE",
+    "fecha_expedicion": "08/01/2015",
+    "lugar_expedicion": "BOGOTÁ D.C.",
+    "fecha_consulta": "29/11/2025 12:00:00",
+    "vigente": true,
+    "archivo_pdf": "certificado_1036670248_1732885200.pdf",
+    "texto_completo": "REPÚBLICA DE COLOMBIA\nREGISTRADURÍA NACIONAL DEL ESTADO CIVIL\n\nCERTIFICADO DE CÉDULA DE CIUDADANÍA\n\nNúmero de documento: 1036670248\nNombre: JUAN CARLOS RODRIGUEZ MARTINEZ\nEstado: VIGENTE\nFecha de expedición: 08/01/2015\nLugar de expedición: BOGOTÁ D.C.\n\nEste certificado acredita que la cédula de ciudadanía número 1036670248 se encuentra vigente en el sistema de la Registraduría Nacional del Estado Civil.\n\nFecha de consulta: 29/11/2025 12:00:00"
+  }
+}

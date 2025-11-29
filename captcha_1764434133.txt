@@ -1,0 +1,2 @@
+Todos los resultados: ['LES', 'LES', 'LANA']
+Resultado final: LANA

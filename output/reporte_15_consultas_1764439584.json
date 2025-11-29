@@ -1,0 +1,258 @@
+{
+  "metadata": {
+    "fecha_prueba": "29/11/2025 13:06:24",
+    "version_script": "1.0",
+    "objetivo": "Verificar concurrencia sin bloqueos"
+  },
+  "configuracion": {
+    "total_consultas": 15,
+    "modo_ejecucion": "Paralelo",
+    "timeout_por_consulta": 300,
+    "delay_entre_lanzamientos": 0.5
+  },
+  "resultados_generales": {
+    "tasa_exito": 0.0,
+    "consultas_exitosas": 0,
+    "consultas_fallidas": 15,
+    "consultas_con_datos": 0,
+    "bloqueos_detectados": 0,
+    "tiempo_total_segundos": 7.77
+  },
+  "analisis_tiempos": {
+    "promedio": 0.79,
+    "minimo": 0.76,
+    "maximo": 0.82,
+    "mediana": 0.78,
+    "desviacion_estandar": 0.02
+  },
+  "analisis_concurrencia": {
+    "consultas_por_segundo": 1.93,
+    "eficiencia": 0.0,
+    "paralelismo_efectivo": {
+      "max_consultas_paralelas": 2,
+      "promedio_paralelas": 7.5
+    },
+    "bloqueos_por_limite_pagina": true
+  },
+  "errores_encontrados": {
+    "Código salida: 1 - Traceback (most recent call las...": 15
+  },
+  "conclusiones": [
+    "❌ Tasa de éxito baja (< 80%)",
+    "✅ No se detectaron bloqueos por límites de la página",
+    "✅ Tiempo promedio aceptable (< 60s)",
+    "⚠️ REVISAR SISTEMA - Posibles problemas de concurrencia"
+  ],
+  "resultados_detallados": [
+    {
+      "consulta_id": 1,
+      "cedula": "1036670248",
+      "fecha": "08/01/2015",
+      "thread_id": 10408,
+      "inicio": 1764439576.8363144,
+      "fin": 1764439577.6479187,
+      "duracion": 0.8116042613983154,
+      "exitosa": false,
+      "error": "Código salida: 1 - Traceback (most recent call last):\n  File \"C:\\Users\\123\\OneDrive\\Escritorio\\ANDRE\\Pruebas Tecnicas\\P",
+      "datos_obtenidos": false,
+      "archivo_generado": null,
+      "bloqueo_detectado": false
+    },
+    {
+      "consulta_id": 2,
+      "cedula": "1018505654",
+      "fecha": "15/05/1991",
+      "thread_id": 23480,
+      "inicio": 1764439577.3370132,
+      "fin": 1764439578.1206205,
+      "duracion": 0.7836072444915771,
+      "exitosa": false,
+      "error": "Código salida: 1 - Traceback (most recent call last):\n  File \"C:\\Users\\123\\OneDrive\\Escritorio\\ANDRE\\Pruebas Tecnicas\\P",
+      "datos_obtenidos": false,
+      "archivo_generado": null,
+      "bloqueo_detectado": false
+    },
+    {
+      "consulta_id": 3,
+      "cedula": "1234567890",
+      "fecha": "01/01/2000",
+      "thread_id": 7832,
+      "inicio": 1764439577.8377225,
+      "fin": 1764439578.622773,
+      "duracion": 0.7850503921508789,
+      "exitosa": false,
+      "error": "Código salida: 1 - Traceback (most recent call last):\n  File \"C:\\Users\\123\\OneDrive\\Escritorio\\ANDRE\\Pruebas Tecnicas\\P",
+      "datos_obtenidos": false,
+      "archivo_generado": null,
+      "bloqueo_detectado": false
+    },
+    {
+      "consulta_id": 4,
+      "cedula": "9876543210",
+      "fecha": "15/12/1995",
+      "thread_id": 32164,
+      "inicio": 1764439578.338439,
+      "fin": 1764439579.112083,
+      "duracion": 0.773643970489502,
+      "exitosa": false,
+      "error": "Código salida: 1 - Traceback (most recent call last):\n  File \"C:\\Users\\123\\OneDrive\\Escritorio\\ANDRE\\Pruebas Tecnicas\\P",
+      "datos_obtenidos": false,
+      "archivo_generado": null,
+      "bloqueo_detectado": false
+    },
+    {
+      "consulta_id": 5,
+      "cedula": "1111111111",
+      "fecha": "20/06/1990",
+      "thread_id": 29388,
+      "inicio": 1764439578.8391197,
+      "fin": 1764439579.6093123,
+      "duracion": 0.7701926231384277,
+      "exitosa": false,
+      "error": "Código salida: 1 - Traceback (most recent call last):\n  File \"C:\\Users\\123\\OneDrive\\Escritorio\\ANDRE\\Pruebas Tecnicas\\P",
+      "datos_obtenidos": false,
+      "archivo_generado": null,
+      "bloqueo_detectado": false
+    },
+    {
+      "consulta_id": 6,
+      "cedula": "2222222222",
+      "fecha": "10/03/1985",
+      "thread_id": 20660,
+      "inicio": 1764439579.3399317,
+      "fin": 1764439580.1073692,
+      "duracion": 0.7674374580383301,
+      "exitosa": false,
+      "error": "Código salida: 1 - Traceback (most recent call last):\n  File \"C:\\Users\\123\\OneDrive\\Escritorio\\ANDRE\\Pruebas Tecnicas\\P",
+      "datos_obtenidos": false,
+      "archivo_generado": null,
+      "bloqueo_detectado": false
+    },
+    {
+      "consulta_id": 7,
+      "cedula": "3333333333",
+      "fecha": "25/08/1992",
+      "thread_id": 4692,
+      "inicio": 1764439579.8407369,
+      "fin": 1764439580.6124575,
+      "duracion": 0.7717206478118896,
+      "exitosa": false,
+      "error": "Código salida: 1 - Traceback (most recent call last):\n  File \"C:\\Users\\123\\OneDrive\\Escritorio\\ANDRE\\Pruebas Tecnicas\\P",
+      "datos_obtenidos": false,
+      "archivo_generado": null,
+      "bloqueo_detectado": false
+    },
+    {
+      "consulta_id": 8,
+      "cedula": "4444444444",
+      "fecha": "05/11/1988",
+      "thread_id": 17056,
+      "inicio": 1764439580.3412416,
+      "fin": 1764439581.1345706,
+      "duracion": 0.7933290004730225,
+      "exitosa": false,
+      "error": "Código salida: 1 - Traceback (most recent call last):\n  File \"C:\\Users\\123\\OneDrive\\Escritorio\\ANDRE\\Pruebas Tecnicas\\P",
+      "datos_obtenidos": false,
+      "archivo_generado": null,
+      "bloqueo_detectado": false
+    },
+    {
+      "consulta_id": 9,
+      "cedula": "5555555555",
+      "fecha": "30/04/1993",
+      "thread_id": 26772,
+      "inicio": 1764439580.8418462,
+      "fin": 1764439581.6651347,
+      "duracion": 0.8232884407043457,
+      "exitosa": false,
+      "error": "Código salida: 1 - Traceback (most recent call last):\n  File \"C:\\Users\\123\\OneDrive\\Escritorio\\ANDRE\\Pruebas Tecnicas\\P",
+      "datos_obtenidos": false,
+      "archivo_generado": null,
+      "bloqueo_detectado": false
+    },
+    {
+      "consulta_id": 10,
+      "cedula": "6666666666",
+      "fecha": "12/09/1987",
+      "thread_id": 27992,
+      "inicio": 1764439581.3421707,
+      "fin": 1764439582.1633508,
+      "duracion": 0.8211801052093506,
+      "exitosa": false,
+      "error": "Código salida: 1 - Traceback (most recent call last):\n  File \"C:\\Users\\123\\OneDrive\\Escritorio\\ANDRE\\Pruebas Tecnicas\\P",
+      "datos_obtenidos": false,
+      "archivo_generado": null,
+      "bloqueo_detectado": false
+    },
+    {
+      "consulta_id": 11,
+      "cedula": "7777777777",
+      "fecha": "18/07/1994",
+      "thread_id": 15052,
+      "inicio": 1764439581.8429084,
+      "fin": 1764439582.6545334,
+      "duracion": 0.8116250038146973,
+      "exitosa": false,
+      "error": "Código salida: 1 - Traceback (most recent call last):\n  File \"C:\\Users\\123\\OneDrive\\Escritorio\\ANDRE\\Pruebas Tecnicas\\P",
+      "datos_obtenidos": false,
+      "archivo_generado": null,
+      "bloqueo_detectado": false
+    },
+    {
+      "consulta_id": 12,
+      "cedula": "8888888888",
+      "fecha": "22/02/1989",
+      "thread_id": 29432,
+      "inicio": 1764439582.3435261,
+      "fin": 1764439583.1288605,
+      "duracion": 0.7853343486785889,
+      "exitosa": false,
+      "error": "Código salida: 1 - Traceback (most recent call last):\n  File \"C:\\Users\\123\\OneDrive\\Escritorio\\ANDRE\\Pruebas Tecnicas\\P",
+      "datos_obtenidos": false,
+      "archivo_generado": null,
+      "bloqueo_detectado": false
+    },
+    {
+      "consulta_id": 13,
+      "cedula": "9999999999",
+      "fecha": "14/10/1996",
+      "thread_id": 29124,
+      "inicio": 1764439582.843936,
+      "fin": 1764439583.6151338,
+      "duracion": 0.7711977958679199,
+      "exitosa": false,
+      "error": "Código salida: 1 - Traceback (most recent call last):\n  File \"C:\\Users\\123\\OneDrive\\Escritorio\\ANDRE\\Pruebas Tecnicas\\P",
+      "datos_obtenidos": false,
+      "archivo_generado": null,
+      "bloqueo_detectado": false
+    },
+    {
+      "consulta_id": 14,
+      "cedula": "1010101010",
+      "fecha": "07/05/1991",
+      "thread_id": 9396,
+      "inicio": 1764439583.3446093,
+      "fin": 1764439584.1175878,
+      "duracion": 0.7729785442352295,
+      "exitosa": false,
+      "error": "Código salida: 1 - Traceback (most recent call last):\n  File \"C:\\Users\\123\\OneDrive\\Escritorio\\ANDRE\\Pruebas Tecnicas\\P",
+      "datos_obtenidos": false,
+      "archivo_generado": null,
+      "bloqueo_detectado": false
+    },
+    {
+      "consulta_id": 15,
+      "cedula": "2020202020",
+      "fecha": "03/12/1986",
+      "thread_id": 4548,
+      "inicio": 1764439583.8450058,
+      "fin": 1764439584.6086128,
+      "duracion": 0.7636070251464844,
+      "exitosa": false,
+      "error": "Código salida: 1 - Traceback (most recent call last):\n  File \"C:\\Users\\123\\OneDrive\\Escritorio\\ANDRE\\Pruebas Tecnicas\\P",
+      "datos_obtenidos": false,
+      "archivo_generado": null,
+      "bloqueo_detectado": false
+    }
+  ]
+}

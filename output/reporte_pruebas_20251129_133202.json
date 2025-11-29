@@ -1,0 +1,33 @@
+{
+  "unitarias": {
+    "ejecutadas": 18,
+    "exitosas": 16,
+    "errores": 0,
+    "fallos": 2,
+    "tiempo": 0.013099908828735352,
+    "tasa_exito": 88.88888888888889
+  },
+  "integracion": {
+    "ejecutadas": 13,
+    "exitosas": 10,
+    "errores": 2,
+    "fallos": 1,
+    "tiempo": 0.12688446044921875,
+    "tasa_exito": 76.92307692307693
+  },
+  "timestamp": "29/11/2025 13:32:01",
+  "ambiente": {
+    "python_version": "3.11.5 (tags/v3.11.5:cce6ba9, Aug 24 2023, 14:38:34) [MSC v.1936 64 bit (AMD64)]",
+    "plataforma": "win32",
+    "directorio": "C:\\Users\\123\\OneDrive\\Escritorio\\ANDRE\\Pruebas Tecnicas\\P TUSDATOS"
+  },
+  "resumen_global": {
+    "total_ejecutadas": 31,
+    "total_exitosas": 26,
+    "total_errores": 2,
+    "total_fallos": 3,
+    "tasa_exito_global": 83.87096774193549,
+    "tiempo_total": 0.14232611656188965,
+    "exito_total": false
+  }
+}
